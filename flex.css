@@ -1,0 +1,152 @@
+.body{
+padding: 60%;
+margin: 60%;
+}
+@media(min-width:600px){
+.container
+{
+	/*display: flex;
+	flex-direction: column;
+	padding:0;
+	justify-content: center;
+	flex-wrap: wrap;*/
+      color:gold;
+       background-color:black;
+
+
+}
+
+/*#clk:hover{
+	background-color: skyblue;
+}*/
+
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9
+{
+
+	border: 2px solid blue;
+	margin:  10px;
+}
+.top, .middle,.bottom{
+	display: flex;
+	flex-direction:row;
+
+}
+
+.box1
+{
+	flex: 1;
+	order: 1;
+}
+
+.box2
+{
+	flex: 1;
+	order: 2;
+}
+.box3
+{
+	flex: 1;
+	order: 3;
+}
+.box4
+{
+	flex: 1;
+	order: 4;
+}.box5
+{
+	flex: 1;
+	order: 5;
+}.box6
+{
+	flex: 1;
+	order: 6;
+}.box7
+{
+	flex: 1;
+	order: 7;
+}.box8
+{
+	flex: 1;
+	order: 8;
+}.box9
+{
+	flex: 1;
+	order: 9;
+}
+ /*.container{ 
+          color:gold;
+          background-color:black;
+
+}*/
+.button{
+	cursor:pointer;
+	background-color: green;
+}
+.button:hover{
+	color:gold;
+	
+}
+
+/*
+*::before, *::after {
+    box-sizing: border-box;
+}
+.parent-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: tomato;
+  padding: 40px calc((100% - (255px * 3)) / 2);
+}
+
+.flex-item {
+   height: 100px;
+   flex: 0 0 215px;
+   margin: 1em 20px;
+   border: 2px blue solid;
+}*/
+
+
+/*
+.button {
+       display: inline-block;
+       padding: 0 15px;
+       background: skyblue;
+       border: 2px outset blue;
+       cursor: default;
+            }
+.button:active {
+   border-style: inset;
+            }
+
+ul {
+	list-style-type: none;
+	position: fixed;
+	width: 100% ;
+	top:0;
+	padding:0px ;
+	margin:0 ;
+	overflow: hidden;
+	background-color: ff0000;
+}
+
+li {
+float: left;
+border-right: 1 px solid skyblue;
+
+}
+li a{
+	display: block;
+	color: blue;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+li a: hover{
+	color: greenyellow;
+	background-color: skyblue;
+}
+
+}*/

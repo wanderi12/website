@@ -1,0 +1,12 @@
+.body
+{
+	text-align:center;
+}
+.container
+{
+	background-color: aqua;
+	align-content: center;
+	padding-left: 30%;
+    padding-right: 30%
+    margin:25%;
+}

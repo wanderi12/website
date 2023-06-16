@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+	<div class="container">
+		<form action="<?php echo $ SERVER['php_SELF'"
+		method='POST'>
+		<div class='price'>
+			<h1>awesome ,thanks</h1>
+		</div>
+		<div class="card_container">
+			<div class="row">
+				<img src="mpesa.png"style="width: 30%;margin: 0 35%">
+				<p style="color:#8F92C3;"> enter the <b>phone number</b> and<b> press confirm and pay</b></br>
+					you will receive a popup on your phone.Enter your<b>MPESA PIN</b></p>
+					<?php if ($errorsg!=(1):?>
+					<p style="background:#CC2A24;padding:$rem;color:#FFFFFF;">
+						<?php echo $ errorsg:?></p>
+						<?php endif:?>
+					</div>
+					<div class="row number">
+						<div class="info">
+							<input type="hidden"name="orderno"value="#0230121380"/>
+							<label for="card_number">phone number</label>
+							<input for="card_number"type="text"name="phone_number"maxlength="10"placeholder="phone number"/>
+						</div>
+					</div>
+				</div>
+				<div class="button">
+					<button type="submit"<i>confirm and pay</i></button></div>
+				</form>
+				<p style="color:#8F92C3"line_height:1.7;margin.top:$rem:">made by wanderi</p>
+			</div>
+		</body>
+		</html>
